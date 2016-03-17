@@ -19,6 +19,7 @@ RUN apk add --update \
 	php-iconv \
 	php-zlib \
 	php-memcache \
+	php-ctype \
 	&& rm -fr /tmp/src \
 	&& rm -fr /var/cache/apk/*
 
