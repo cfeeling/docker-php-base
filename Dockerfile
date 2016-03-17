@@ -20,6 +20,9 @@ RUN apk add --update \
 	php-zlib \
 	php-memcache \
 	php-ctype \
+	php-sqlite3 \
+	php-mysql \
+	php-pdo \
 	&& rm -fr /tmp/src \
 	&& rm -fr /var/cache/apk/*
 
