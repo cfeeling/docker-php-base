@@ -23,6 +23,8 @@ RUN apk add --update \
 	php-sqlite3 \
 	php-mysql \
 	php-pdo \
+	php-sockets \
+	php-gd \
 	&& rm -fr /tmp/src \
 	&& rm -fr /var/cache/apk/*
 
